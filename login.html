@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | Tribunnews.com</title>
+    <link rel="shortcut icon" href="img/favicon2.png" />
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- css -->
+    <link rel="stylesheet" type="text/css" href="css/swiper.min.css">
+    <link rel="stylesheet" type="text/css" href="css/simplePagination.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="img/logo-golkar.svg" alt="LOGO">
+                    </a>
+                </div>
+                <div class="push-left">
+                    <button id="menu-toggler" data-class="menu-active" class="hamburger">
+                                <span class="hamburger-line hamburger-line-top"></span>
+                                <span class="hamburger-line hamburger-line-middle"></span>
+                                <span class="hamburger-line hamburger-line-bottom"></span>
+                              </button>
+                    <ul id="primary-menu" class="menu nav-menu">
+                        <li id="close1" class="menu-item current-menu-item"><a class="nav__link active1" href="index.html#beranda">Beranda</a></li>
+                        <li id="close2" class="menu-item current-menu-item"><a class="nav__link" href="index.html#kompetisi">Kompetisi</a></li>
+                        <li id="close3" class="menu-item current-menu-item"><a class="nav__link" href="index.html#caraikutan">Cara Ikutan</a></li>
+                        <li id="close4" class="menu-item current-menu-item"><a class="nav__link" href="index.html#artikel">Artikel</a></li>
+                        <!-- <li id="close5" class="menu-item current-menu-item"><a class="nav__link login" href="login.html">Login</a></li> -->
+                        <li id="close5" class="menu-item current-menu-item"><a class="nav__link ctavideo" href="login.html">Sumbit Video</a></li>
+                        <li class="menu-item current-menu-item dropdown2">
+                            <div class="nav__link user">Mammet <img class="icon-dropdown2" src="img/icon/expand_more2.svg" alt=""></div>
+                            <ul class="dropdown-content2">
+                                <li><a href="">Profile</a></li>
+                                <li><a href="">Log Out</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main about pb" data-parallax="container">
+        <section class="register pt pb">
+            <div class="wrap-regis wrap-login">
+                <div class="register__logo">
+                    <img src="img/logolokalkreasi.png" alt="">
+                </div>
+                <div class="register__form">
+                    <form id="ajaxForm" method="post" action="">
+                        <div class="form-group">
+                            <input type="text" id="f1" placeholder="Email" required="">
+                            <img class="icon-form" src="img/icon/user.svg" alt="user">
+                        </div>
+                        <div class="form-group">
+                            <input type="password" id="f4" placeholder="Password" required="">
+                            <img class="icon-form" src="img/icon/lock.svg" alt="lock">
+                        </div>
+                        <div class="loginbtn">
+                            <input type="submit" value="LOG IN">
+                        </div>
+                    </form>
+                    <div class="register__forgot">
+                        <a href="forgot-password.html">
+                            Lupa Password?
+                        </a>
+                    </div>
+                    <div class="register__new">
+                        <a href="register.html">
+                            Buat Akun?
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer__logo">
+                <img src="img/footer-logo.png" alt="footer-logo">
+            </div>
+            <div class="footer__text">
+                Ikuti kami di:
+            </div>
+            <ul class="footer-social">
+                <li>
+                    <a href="https://www.instagram.com/lokalcorn/" target="_blank" rel="noopener noreferrer">
+                        <img src="img/fb.png" alt="fb">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/LokalCorn" target="_blank" rel="noopener noreferrer">
+                        <img src="img/ig.png" alt="ig">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.tribunnews.com/about" target="_blank" rel="noopener noreferrer">
+                        <img src="img/tw.png" alt="tw">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.tribunnews.com/about" target="_blank" rel="noopener noreferrer">
+                        <img src="img/yt.png" alt="yt">
+                    </a>
+                </li>
+            </ul>
+            <p class="copyright">Content dalam microsite ini adalah advertorial. Tanggung jawab sepenuhnya berada pada pemasang iklan. </p>
+            <div class="footer__credit">
+                Tertanda<br> Publisher
+            </div>
+        </div>
+    </footer>
+
+    <!--back to top-->
+    <div class="m-backtotop " aria-hidden="true ">
+        <div class="arrow-back">
+            <img src="img/top.png " alt="top.png ">
+        </div>
+    </div>
+
+
+
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.overscroll.min.js"></script>
+    <script type="text/javascript" src="js/swiper.min.js"></script>
+    <script type="text/javascript" src="js/jquery.simplePagination.js"></script>
+    <script type="text/javascript" src="js/upload.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+
+
+</body>
+
+</html>
